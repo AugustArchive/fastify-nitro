@@ -9,8 +9,6 @@ import fp from 'fastify-plugin';
 
 export default fp(
   (instance, { prefix, onError }, done) => {
-    console.log(useRuntimeConfig());
-
     const {
       app: { baseURL }
     } = useRuntimeConfig();
