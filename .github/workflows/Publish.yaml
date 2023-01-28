@@ -48,6 +48,9 @@ jobs:
       - name: Build distribution
         run: yarn build
 
+      - name: Add src/runtime/ in dist/
+        run: cp -R ./src/runtime ./dist
+
       - name: Publish!
         uses: JS-DevTools/npm-publish@v1
         with:
