@@ -2,9 +2,11 @@
 
 > _Experimental [Nitro](https://nitro.unjs.io) preset to export a Nitro server as middleware for fastify_
 
-**@augu/nitro-preset** is my little preset for building [Nitro](https://nitro.unjs.io) applications that expose a [fastify](https://fastify.io) server or middleware export.
+**@augu/fastify-nitro** is my little preset for building [Nitro](https://nitro.unjs.io) applications that expose a [fastify](https://fastify.io) server or middleware export.
 
-**Why?** -- The other Node-related presets for Nitro didn't have customizable inputs (i.e, you will have to use `node .output/server/server.mjs`) instead of being an export of **h3** -> node listener. So, I built this that exports as a fastify server or middleware (which requires [`@fastify/middie`](https://github.com/fastify/middie) to make it compatible with `node:http`).
+> **Note**: Why did you create this?
+>
+> I made this library to easily integrate fastify with Nitro (or Nuxt 3) so I can have other handlers bound to fastify and I don't really like how server middleware works or is defined, I rather just do it at the application level, not at the meta-framework level.
 
 ## Usage
 
@@ -32,6 +34,33 @@ export default defineNuxtConfig({
   nitro: {
     preset: '@augu/fastify-nitro'
   }
+});
+```
+
+## Base URL
+
+This preset respects the **baseURL** option in the Nitropack configuration. You will need to set the `prefix` to be usuable so fastify knows how to use it!
+
+> **nitro.config.ts**
+
+```ts
+import { defineNitroConfig } from 'nitropack';
+
+export default defineNitroConfig({
+  preset: '@augu/fastify-nitro',
+  baseURL: '/some-url'
+});
+```
+
+> **server.js**
+
+```js
+const nitroPlugin = await import('./.output/server/index.mjs');
+
+app.register(nitroPlugin, {
+  // It has to be the same as `baseURL` in nitro.config.ts or it will
+  // error.
+  prefix: '/some-url'
 });
 ```
 

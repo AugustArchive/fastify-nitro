@@ -5,7 +5,8 @@
     "removeComments": true,
     "types": ["node"],
     "rootDir": "src/",
-    "noEmit": true // unbuild does this for us
+    "noEmit": true, // unbuild does this for us
+    "allowJs": true
   },
   "exclude": ["node_modules"],
   "include": ["src/**/*.ts"]

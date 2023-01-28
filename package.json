@@ -1,7 +1,7 @@
 {
   "name": "@augu/fastify-nitro",
   "description": "🐻‍❄️⚗️ Experimental Nitro preset to export a Nitro server as middleware for fastify",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": "https://github.com/auguwu/nitro-preset",
