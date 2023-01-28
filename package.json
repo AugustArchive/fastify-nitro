@@ -1,5 +1,5 @@
 {
-  "name": "@augu/nitro-preset",
+  "name": "@augu/fastify-nitro",
   "description": "🐻‍❄️⚗️ Experimental Nitro preset to export a Nitro server as middleware for fastify",
   "version": "1.0.0",
   "main": "./build/index.js",
