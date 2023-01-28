@@ -1,4 +1,4 @@
-# 🐻‍❄️⚗️ @augu/nitro-preset
+# 🐻‍❄️⚗️ @augu/fastify-nitro
 
 > _Experimental [Nitro](https://nitro.unjs.io) preset to export a Nitro server as middleware for fastify_
 
@@ -9,8 +9,8 @@
 ## Usage
 
 ```shell
-$ npm i --save-dev @augu/nitro-preset
-$ yarn add -D @augu/nitro-preset
+$ npm i --save-dev @augu/fastify-nitro
+$ yarn add -D @augu/fastify-nitro
 ```
 
 > **nitro.config.ts**

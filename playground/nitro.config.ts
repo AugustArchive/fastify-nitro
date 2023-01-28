@@ -1,5 +1,5 @@
 /*
- * 🐻‍❄️⚗️ @augu/nitro-preset: Experimental Nitro preset to export a Nitro server as middleware for fastify
+ * 🐻‍❄️⚗️ @augu/fastify-nitro: Experimental Nitro preset to export a Nitro server as middleware for fastify
  * Copyright (c) 2023 Noel <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,6 +21,9 @@
  * SOFTWARE.
  */
 
-import { eventHandler } from 'h3';
+import { defineNitroConfig } from 'nitropack';
+import { resolve } from 'path';
 
-export default eventHandler(() => 'Hello, world!');
+export default defineNitroConfig({
+  preset: resolve(__dirname, '..', '..', 'dist', 'index.mjs')
+});

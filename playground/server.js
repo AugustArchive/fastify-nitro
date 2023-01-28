@@ -5,7 +5,7 @@ async function main() {
   const app = fastify({ logger: true });
   app.register(middie);
 
-  const { default: nitroPlugin } = await import('../generation/.output/server/index.mjs');
+  const { default: nitroPlugin } = await import('./.output/server/index.mjs');
 
   app.register(nitroPlugin);
   // app.get('/', (_, res) => res.status(200).send('hi'));
