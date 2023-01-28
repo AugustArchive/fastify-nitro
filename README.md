@@ -25,7 +25,7 @@ export default defineNitroConfig({
 
 ## Nuxt Usage
 
-To use this plugin with Nuxt 3, you just need to use `NITRO_PRESET=@augu/nitro-preset` or add it in your Nuxt configuration:
+To use this plugin with Nuxt 3, you just need to use `NITRO_PRESET=@augu/fastify-nitro` or add it in your Nuxt configuration:
 
 ```ts
 export default defineNuxtConfig({
@@ -37,7 +37,7 @@ export default defineNuxtConfig({
 
 ## Contributing
 
-Thanks for considering contributing to **@augu/nitro-preset**! Before you boop your heart out on your keyboard ✧ ─=≡Σ((( つ•̀ω•́)つ, we recommend you to do the following:
+Thanks for considering contributing to **@augu/fastify-nitro**! Before you boop your heart out on your keyboard ✧ ─=≡Σ((( つ•̀ω•́)つ, we recommend you to do the following:
 
 - Read the [Code of Conduct](./.github/CODE_OF_CONDUCT.md)
 - Read the [Contributing Guide](./.github/CONTRIBUTING.md)
@@ -45,7 +45,7 @@ Thanks for considering contributing to **@augu/nitro-preset**! Before you boop y
 If you read both if you're a new time contributor, now you can do the following:
 
 - [Fork me! ＊\*♡( ⁎ᵕᴗᵕ⁎ ）](https://github.com/auguwu/nitro-preset/fork)
-- Clone your fork on your machine: `git clone https://github.com/your-username/nitro-preset`
+- Clone your fork on your machine: `git clone https://github.com/your-username/fastify-nitro`
 - Create a new branch: `git checkout -b some-branch-name`
 - Run `corepack enable` and use `yarn` for this project
 - BOOP THAT KEYBOARD!!!! ♡┉ˏ͛ (❛ 〰 ❛)ˊˎ┉♡
