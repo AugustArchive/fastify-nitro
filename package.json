@@ -1,20 +1,20 @@
 {
   "name": "@augu/fastify-nitro",
   "description": "🐻‍❄️⚗️ Experimental Nitro preset to export a Nitro server as middleware for fastify",
-  "version": "1.0.0",
-  "main": "./build/index.js",
-  "types": "./build/index.d.ts",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "repository": "https://github.com/auguwu/nitro-preset",
   "bugs": "https://github.com/auguwu/nitro-preset/issues",
   "packageManager": "yarn@3.3.1",
   "files": [
-    "./build"
+    "./dist"
   ],
   "exports": {
     ".": {
-      "import": "./build/index.mjs",
-      "default": "./build/index.js",
-      "types": "./build/index.d.ts"
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
