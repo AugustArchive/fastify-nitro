@@ -19,13 +19,21 @@ $ yarn add -D @augu/fastify-nitro
 import { defineNitroConfig } from 'nitropack';
 
 export default defineNitroConfig({
-  preset: '@augu/nitro-preset'
+  preset: '@augu/fastify-nitro'
 });
 ```
 
 ## Nuxt Usage
 
-To use this plugin with Nuxt 3, you just need to use `NITRO_PRESET=@augu/nitro-preset`.
+To use this plugin with Nuxt 3, you just need to use `NITRO_PRESET=@augu/nitro-preset` or add it in your Nuxt configuration:
+
+```ts
+export default defineNuxtConfig({
+  nitro: {
+    preset: '@augu/fastify-nitro'
+  }
+});
+```
 
 ## Contributing
 
