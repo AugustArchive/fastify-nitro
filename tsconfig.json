@@ -1,0 +1,12 @@
+{
+  "extends": "@augu/tsconfig",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "removeComments": true,
+    "types": ["node"],
+    "rootDir": "src/",
+    "noEmit": true // unbuild does this for us
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts"]
+}
