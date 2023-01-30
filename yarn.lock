@@ -51,7 +51,7 @@ __metadata:
     eslint: 8.33.0
     eslint-config-prettier: 8.6.0
     log-symbols: 5.1.0
-    nitropack: 2.1.0
+    nitropack: 2.1.1
     prettier: 2.8.3
     rimraf: 4.1.2
     signale: 1.4.0
@@ -1843,7 +1843,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.17.4":
+"esbuild@npm:^0.17.5":
   version: 0.17.5
   resolution: "esbuild@npm:0.17.5"
   dependencies:
@@ -3464,9 +3464,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nitropack@npm:2.1.0":
-  version: 2.1.0
-  resolution: "nitropack@npm:2.1.0"
+"nitropack@npm:2.1.1":
+  version: 2.1.1
+  resolution: "nitropack@npm:2.1.1"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.3.0
     "@netlify/functions": ^1.4.0
@@ -3489,7 +3489,7 @@ __metadata:
     defu: ^6.1.2
     destr: ^1.2.2
     dot-prop: ^7.2.0
-    esbuild: ^0.17.4
+    esbuild: ^0.17.5
     escape-string-regexp: ^5.0.0
     etag: ^1.8.1
     fs-extra: ^11.1.0
@@ -3514,7 +3514,7 @@ __metadata:
     pkg-types: ^1.0.1
     pretty-bytes: ^6.0.0
     radix3: ^1.0.0
-    rollup: ^3.10.1
+    rollup: ^3.12.0
     rollup-plugin-visualizer: ^5.9.0
     scule: ^1.0.0
     semver: ^7.3.8
@@ -3523,13 +3523,13 @@ __metadata:
     source-map-support: ^0.5.21
     std-env: ^3.3.1
     ufo: ^1.0.1
-    unenv: ^1.0.2
-    unimport: ^2.0.1
+    unenv: ^1.0.3
+    unimport: ^2.1.0
     unstorage: ^1.0.1
   bin:
     nitro: dist/cli.mjs
     nitropack: dist/cli.mjs
-  checksum: b761f551635ad2942d3b5f47504cd7fd5fb8226ed61c02c245ee834c365682ea8f311ea6189297ce8866443d84304d8d4a666e51b42ea6a87bb2adc67348457a
+  checksum: 556ce4914778314953619ece30685a1536880d85c4307c4c2a9fede1415cb7cd5f7cc1eefa07429bc88651d3b46d5c7f6911b325041a497af544b4781835f7b8
   languageName: node
   linkType: hard
 
@@ -4194,7 +4194,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.10.1, rollup@npm:^3.2.5":
+"rollup@npm:^3.12.0":
+  version: 3.12.0
+  resolution: "rollup@npm:3.12.0"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: 66182947ea74bd4777e1a02514124f49eacc6b123e23738cf31342f8e73b79e43da05671aebe6d5f55b5830ebf3dd11f2eaba1b98b8fc6a9e6d96fd4c3ecc534
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^3.2.5":
   version: 3.11.0
   resolution: "rollup@npm:3.11.0"
   dependencies:
@@ -4828,21 +4842,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unenv@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "unenv@npm:1.0.2"
+"unenv@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "unenv@npm:1.0.3"
   dependencies:
     defu: ^6.1.2
     mime: ^3.0.0
     node-fetch-native: ^1.0.1
     pathe: ^1.1.0
-  checksum: ef4e4b617c25fb37076d09100c93b891c07f97f53e274c7f3c622444ae68bc55c03df4e6ba92ec65ab64d42c0a99e5ce5ac2c6c3386b4e9bdccbfdfcd14e71a8
+  checksum: d8c07ab6e0f2a1856600d05ea3bcb66d22a7d7036dc022ab809bacf5b9a89b553b804a641931396a8830e8d878528072c302e7879385a962db28c60f0383d2ca
   languageName: node
   linkType: hard
 
-"unimport@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "unimport@npm:2.0.1"
+"unimport@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "unimport@npm:2.1.0"
   dependencies:
     "@rollup/pluginutils": ^5.0.2
     escape-string-regexp: ^5.0.0
@@ -4855,7 +4869,7 @@ __metadata:
     scule: ^1.0.0
     strip-literal: ^1.0.0
     unplugin: ^1.0.1
-  checksum: a8f4774b1b41ad33bd44438e812afb191de5976da45cb29ccb59842c04f6de7a5d23f39b36047c600c1b99ef5de7a9d26aa7c1342dc382b841e0be207b7068ff
+  checksum: cdc554dd2c0949d3be4e9e545d26b2da32f2c4c217eadc9b638042e3af5c6dfcb3e918e12a6eeff86fc9280a185fba7540c4b6b80803ac43d24f5e89d07be831
   languageName: node
   linkType: hard
 
