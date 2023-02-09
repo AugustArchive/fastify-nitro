@@ -67,7 +67,7 @@ __metadata:
     eslint: 8.33.0
     eslint-config-prettier: 8.6.0
     log-symbols: 5.1.0
-    nitropack: 2.1.2
+    nitropack: 2.2.0
     prettier: 2.8.4
     rimraf: 4.1.2
     signale: 1.4.0
@@ -2971,16 +2971,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^1.2.0":
-  version: 1.2.1
-  resolution: "h3@npm:1.2.1"
+"h3@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "h3@npm:1.4.0"
   dependencies:
     cookie-es: ^0.5.0
     destr: ^1.2.2
+    iron-webcrypto: ^0.4.0
     radix3: ^1.0.0
     ufo: ^1.0.1
     uncrypto: ^0.1.2
-  checksum: 3a4f321ce2425a8a4ab78add7646a01343bf4303c48d83e532d6c69de472a3983e5bf7ac76ae1ed2784def682ecb673f86a87e698c1a882aeb93d95d6b1d6f69
+  checksum: 6e6f1f63166c022e55565dbe73a2a9df0fed7b9575eff378d9989c0fdae24e6adf0b9c6c043c9ffcb3186f4c2c881b5f6109586dfb8dee1c70e8d55f0595ecdb
   languageName: node
   linkType: hard
 
@@ -3245,6 +3246,13 @@ __metadata:
   version: 2.0.0
   resolution: "ip@npm:2.0.0"
   checksum: cfcfac6b873b701996d71ec82a7dd27ba92450afdb421e356f44044ed688df04567344c36cbacea7d01b1c39a4c732dc012570ebe9bebfb06f27314bca625349
+  languageName: node
+  linkType: hard
+
+"iron-webcrypto@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "iron-webcrypto@npm:0.4.0"
+  checksum: 6bf4c3e3bd9a1664bbe54a206889e3daef297c5032b96b648d54928741c3b8c728523386cfd94dd5e6e67a91580c8f6bcf13fe4abc531cbbaa9bd97fb8859f8f
   languageName: node
   linkType: hard
 
@@ -3523,12 +3531,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jiti@npm:^1.16.0, jiti@npm:^1.16.2":
+"jiti@npm:^1.16.0":
   version: 1.16.2
   resolution: "jiti@npm:1.16.2"
   bin:
     jiti: bin/jiti.js
   checksum: c0e83d1ac976c0157ac0fdd0f11aafad8d276d44ad672100d1a97b266e70ef2fa7606b6bd128d3cddd8f5f61a56390a6bd9442275e6afef7bd76d0a976ddf555
+  languageName: node
+  linkType: hard
+
+"jiti@npm:^1.17.0":
+  version: 1.17.0
+  resolution: "jiti@npm:1.17.0"
+  bin:
+    jiti: bin/jiti.js
+  checksum: 1127d003a2b665c643f5b10822d7813d6fbde7329a16dc054d88ff66bfc9abc6330d5d5a6ce5de6d3cf51f33291009436f8db67cbafa5ce0dd97d4637fe501f3
   languageName: node
   linkType: hard
 
@@ -4099,9 +4116,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nitropack@npm:2.1.2":
-  version: 2.1.2
-  resolution: "nitropack@npm:2.1.2"
+"nitropack@npm:2.2.0":
+  version: 2.2.0
+  resolution: "nitropack@npm:2.2.0"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.3.0
     "@netlify/functions": ^1.4.0
@@ -4130,11 +4147,11 @@ __metadata:
     fs-extra: ^11.1.0
     globby: ^13.1.3
     gzip-size: ^7.0.0
-    h3: ^1.2.0
+    h3: ^1.4.0
     hookable: ^5.4.2
     http-proxy: ^1.18.1
     is-primitive: ^3.0.1
-    jiti: ^1.16.2
+    jiti: ^1.17.0
     klona: ^2.0.6
     knitwork: ^1.0.0
     listhen: ^1.0.2
@@ -4158,13 +4175,13 @@ __metadata:
     source-map-support: ^0.5.21
     std-env: ^3.3.2
     ufo: ^1.0.1
-    unenv: ^1.1.0
-    unimport: ^2.1.0
-    unstorage: ^1.1.3
+    unenv: ^1.1.1
+    unimport: ^2.2.4
+    unstorage: ^1.1.4
   bin:
     nitro: dist/cli.mjs
     nitropack: dist/cli.mjs
-  checksum: efdcc322af0bb59cac09877200dcafaba3a48e911b6610a1a83172ba1f2977627c02f17015e63e5c1ee50bd850349e2ba90632b1cb4e61b44699180d67a94c0d
+  checksum: 2b6ef1d50536ef8b7473d9a7d12679395cf8b9838105551d7e62a600a1c7ee383fb5800447893d0545791ad92215bd528aa213f88b4adc88857092cd00a74ef7
   languageName: node
   linkType: hard
 
@@ -5710,21 +5727,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unenv@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "unenv@npm:1.1.0"
+"unenv@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "unenv@npm:1.1.1"
   dependencies:
     defu: ^6.1.2
     mime: ^3.0.0
     node-fetch-native: ^1.0.1
     pathe: ^1.1.0
-  checksum: 6f6bac180e7abc81775685e30dd641a6dbbb4c3317f156d9e6d7ce8ecdb90808dc3c75cc294be6ef479d1374b38211d7b923b6a9d131ecc98f9b5f1c88f5c9bb
+  checksum: ae62e8ef25b7cdf539aa8618ac10913cb563303773d720145f0b7fe54693fc4c32e75e0a376a5363d6eee26a0e68d0919b07a2530d28de1b46ee20fab80fd55d
   languageName: node
   linkType: hard
 
-"unimport@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "unimport@npm:2.1.0"
+"unimport@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "unimport@npm:2.2.4"
   dependencies:
     "@rollup/pluginutils": ^5.0.2
     escape-string-regexp: ^5.0.0
@@ -5737,7 +5754,7 @@ __metadata:
     scule: ^1.0.0
     strip-literal: ^1.0.0
     unplugin: ^1.0.1
-  checksum: cdc554dd2c0949d3be4e9e545d26b2da32f2c4c217eadc9b638042e3af5c6dfcb3e918e12a6eeff86fc9280a185fba7540c4b6b80803ac43d24f5e89d07be831
+  checksum: a5bc5379989279ed56b59ddad8e0b78bcad8da8c8d0b11f4e6841779e3a45b00712442462fbfcbd08c7558f99aa50d05660715ba25c5b750e9bebf212db979e3
   languageName: node
   linkType: hard
 
@@ -5778,9 +5795,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unstorage@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "unstorage@npm:1.1.3"
+"unstorage@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "unstorage@npm:1.1.4"
   dependencies:
     "@planetscale/database": ^1.5.0
     anymatch: ^3.1.3
@@ -5799,7 +5816,7 @@ __metadata:
   dependenciesMeta:
     "@planetscale/database":
       optional: true
-  checksum: 45ef04caa25081b03082b040ca71b2f2de13da59029ae4242a0041da6f5c4dd9905dfa4dfaf51554201335643f28733befee00f7c1699591a162e77a8e5cdd0d
+  checksum: da39aab601564ed330fc3181a7d09ae83eab8f038d3aac5a6e3980185ec65110b8a1f0d9478cd07e52e2b9fef999e059696574a4cb71db6455935d6947953cd3
   languageName: node
   linkType: hard
 
