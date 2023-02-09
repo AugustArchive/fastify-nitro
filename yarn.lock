@@ -67,7 +67,7 @@ __metadata:
     eslint: 8.33.0
     eslint-config-prettier: 8.6.0
     log-symbols: 5.1.0
-    nitropack: 2.2.0
+    nitropack: 2.2.1
     prettier: 2.8.4
     rimraf: 4.1.2
     signale: 1.4.0
@@ -4116,9 +4116,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nitropack@npm:2.2.0":
-  version: 2.2.0
-  resolution: "nitropack@npm:2.2.0"
+"nitropack@npm:2.2.1":
+  version: 2.2.1
+  resolution: "nitropack@npm:2.2.1"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.3.0
     "@netlify/functions": ^1.4.0
@@ -4181,7 +4181,7 @@ __metadata:
   bin:
     nitro: dist/cli.mjs
     nitropack: dist/cli.mjs
-  checksum: 2b6ef1d50536ef8b7473d9a7d12679395cf8b9838105551d7e62a600a1c7ee383fb5800447893d0545791ad92215bd528aa213f88b4adc88857092cd00a74ef7
+  checksum: d6be50cd11291b54bc770f0e3c2df289f3180a73b82308d6adb9fdadfc4dcdeaee3aea66e6731e0e0eabebe89d3e2de4381f6b9fc805ee437a7caa52fb473c76
   languageName: node
   linkType: hard
 
