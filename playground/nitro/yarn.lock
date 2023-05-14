@@ -202,17 +202,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastify/middie@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "@fastify/middie@npm:8.1.0"
-  dependencies:
-    fastify-plugin: ^4.0.0
-    path-to-regexp: ^6.1.0
-    reusify: ^1.0.4
-  checksum: 9b7821f5236cb89aa7d9dba2ee2901a369f734c137cd739f3757fee1db16d3a85263c639b7674e79660350f962e166139dbd075b37aef7f29e2a71b112d2f1de
-  languageName: node
-  linkType: hard
-
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -1512,13 +1501,6 @@ __metadata:
   version: 2.2.0
   resolution: "fast-uri@npm:2.2.0"
   checksum: edac64d50628f21d562cdc19ea86f5af00902dbb09d2f96fff5974e5317157825e9aa163af9defd11a0818aac6ea2e9958597bed98dd041200a08a976809d08b
-  languageName: node
-  linkType: hard
-
-"fastify-plugin@npm:^4.0.0, fastify-plugin@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "fastify-plugin@npm:4.5.0"
-  checksum: 3cc36a43ec72ee9974d3cd1989027e77b277b0994e4fc02ed4e6492aabd83a0be66f14fdec56e60d9a41911ea1ff1ea70c9d957a87e46bcdb8fedd859f4988fe
   languageName: node
   linkType: hard
 
@@ -2851,13 +2833,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-to-regexp@npm:^6.1.0":
-  version: 6.2.1
-  resolution: "path-to-regexp@npm:6.2.1"
-  checksum: f0227af8284ea13300f4293ba111e3635142f976d4197f14d5ad1f124aebd9118783dd2e5f1fe16f7273743cc3dbeddfb7493f237bb27c10fdae07020cc9b698
-  languageName: node
-  linkType: hard
-
 "path-type@npm:^4.0.0":
   version: 4.0.0
   resolution: "path-type@npm:4.0.0"
@@ -3254,9 +3229,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@fastify/middie": ^8.1.0
     fastify: ^4.12.0
-    fastify-plugin: ^4.5.0
     nitropack: ^2.1.0
   languageName: unknown
   linkType: soft

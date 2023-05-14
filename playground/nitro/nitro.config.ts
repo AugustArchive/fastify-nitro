@@ -21,10 +21,10 @@
  * SOFTWARE.
  */
 
-import { defineNitroConfig } from 'nitropack';
+import { defineNitroConfig } from 'nitropack/config';
 import { resolve } from 'path';
 
 export default defineNitroConfig({
-    preset: resolve(__dirname, '..', 'dist/index.mjs'),
+    preset: resolve(__dirname, '..', '..', 'dist/index.mjs'),
     baseURL: '/wuff'
 });
