@@ -1,9 +1,9 @@
 {
-  "type": "module",
-  "dependencies": {
-    "fastify": "^4.12.0"
-  },
-  "devDependencies": {
-    "nitropack": "^2.1.0"
-  }
+    "type": "module",
+    "dependencies": {
+        "fastify": "^4.12.0"
+    },
+    "devDependencies": {
+        "nitropack": "^2.1.0"
+    }
 }

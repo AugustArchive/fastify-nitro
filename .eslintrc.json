@@ -1,3 +1,4 @@
 {
-  "extends": ["prettier", "@augu/eslint-config/ts.js"]
+    "extends": ["prettier", "@augu/eslint-config/ts.js"],
+    "ignorePatterns": ["**/*.md", "LICENSE"]
 }

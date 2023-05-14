@@ -25,6 +25,6 @@ import { defineNitroConfig } from 'nitropack';
 import { resolve } from 'path';
 
 export default defineNitroConfig({
-  preset: resolve(__dirname, '..', 'dist/index.mjs'),
-  baseURL: '/wuff'
+    preset: resolve(__dirname, '..', 'dist/index.mjs'),
+    baseURL: '/wuff'
 });

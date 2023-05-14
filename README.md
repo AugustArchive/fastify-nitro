@@ -21,7 +21,7 @@ $ yarn add -D @augu/fastify-nitro
 import { defineNitroConfig } from 'nitropack';
 
 export default defineNitroConfig({
-  preset: '@augu/fastify-nitro'
+    preset: '@augu/fastify-nitro'
 });
 ```
 
@@ -31,9 +31,9 @@ To use this plugin with Nuxt 3, you just need to use `NITRO_PRESET=@augu/fastify
 
 ```ts
 export default defineNuxtConfig({
-  nitro: {
-    preset: '@augu/fastify-nitro'
-  }
+    nitro: {
+        preset: '@augu/fastify-nitro'
+    }
 });
 ```
 
@@ -47,8 +47,8 @@ This preset respects the **baseURL** option in the Nitropack configuration. You 
 import { defineNitroConfig } from 'nitropack';
 
 export default defineNitroConfig({
-  preset: '@augu/fastify-nitro',
-  baseURL: '/some-url'
+    preset: '@augu/fastify-nitro',
+    baseURL: '/some-url'
 });
 ```
 
@@ -58,9 +58,9 @@ export default defineNitroConfig({
 const nitroPlugin = await import('./.output/server/index.mjs');
 
 app.register(nitroPlugin, {
-  // It has to be the same as `baseURL` in nitro.config.ts or it will
-  // error.
-  prefix: '/some-url'
+    // It has to be the same as `baseURL` in nitro.config.ts or it will
+    // error.
+    prefix: '/some-url'
 });
 ```
 
@@ -68,19 +68,19 @@ app.register(nitroPlugin, {
 
 Thanks for considering contributing to **@augu/fastify-nitro**! Before you boop your heart out on your keyboard ✧ ─=≡Σ((( つ•̀ω•́)つ, we recommend you to do the following:
 
-- Read the [Code of Conduct](./.github/CODE_OF_CONDUCT.md)
-- Read the [Contributing Guide](./.github/CONTRIBUTING.md)
+-   Read the [Code of Conduct](./.github/CODE_OF_CONDUCT.md)
+-   Read the [Contributing Guide](./.github/CONTRIBUTING.md)
 
 If you read both if you're a new time contributor, now you can do the following:
 
-- [Fork me! ＊\*♡( ⁎ᵕᴗᵕ⁎ ）](https://github.com/auguwu/nitro-preset/fork)
-- Clone your fork on your machine: `git clone https://github.com/your-username/fastify-nitro`
-- Create a new branch: `git checkout -b some-branch-name`
-- Run `corepack enable` and use `yarn` for this project
-- BOOP THAT KEYBOARD!!!! ♡┉ˏ͛ (❛ 〰 ❛)ˊˎ┉♡
-- Commit your changes onto your branch: `git commit -am "add features （｡>‿‿<｡ ）"`
-- Push it to the fork you created: `git push -u origin some-branch-name`
-- Submit a Pull Request and then cry! ｡･ﾟﾟ･(థ Д థ。)･ﾟﾟ･｡
+-   [Fork me! ＊\*♡( ⁎ᵕᴗᵕ⁎ ）](https://github.com/auguwu/nitro-preset/fork)
+-   Clone your fork on your machine: `git clone https://github.com/your-username/fastify-nitro`
+-   Create a new branch: `git checkout -b some-branch-name`
+-   Run `corepack enable` and use `yarn` for this project
+-   BOOP THAT KEYBOARD!!!! ♡┉ˏ͛ (❛ 〰 ❛)ˊˎ┉♡
+-   Commit your changes onto your branch: `git commit -am "add features （｡>‿‿<｡ ）"`
+-   Push it to the fork you created: `git push -u origin some-branch-name`
+-   Submit a Pull Request and then cry! ｡･ﾟﾟ･(థ Д థ。)･ﾟﾟ･｡
 
 ## License
 

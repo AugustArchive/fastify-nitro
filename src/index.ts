@@ -25,9 +25,9 @@ import { defineNitroPreset } from 'nitropack';
 import { resolve } from 'path';
 
 export default defineNitroPreset({
-  entry: resolve(__dirname, 'runtime', 'fastify.mjs'),
-  node: true,
-  rollupConfig: {
-    external: ['fastify-plugin']
-  }
+    entry: resolve(__dirname, 'runtime', 'fastify.mjs'),
+    node: true,
+    rollupConfig: {
+        external: ['fastify-plugin']
+    }
 });
