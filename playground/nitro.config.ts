@@ -1,6 +1,6 @@
 /*
  * 🐻‍❄️⚗️ @augu/fastify-nitro: Experimental Nitro preset to export a Nitro server as middleware for fastify
- * Copyright (c) 2023 Noel <cutie@floofy.dev>
+ * Copyright (c) 2023 Noel Towa <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
