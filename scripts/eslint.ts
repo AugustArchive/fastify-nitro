@@ -69,7 +69,7 @@ async function main() {
                 });
             } else {
                 const method = message.severity === 1 ? log.warn : log.error;
-                method(`    * ${s}   ${message.message} (${message.ruleId})`);
+                method(`${message.message} (${message.ruleId})`);
             }
         }
     }
