@@ -24,7 +24,7 @@
     },
     "dependencies": {
         "@noelware/utils": "2.3.0",
-        "nitropack": "2.4.0"
+        "nitropack": "2.4.1"
     },
     "devDependencies": {
         "@actions/core": "1.10.0",
