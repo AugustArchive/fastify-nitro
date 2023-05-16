@@ -67,7 +67,7 @@ __metadata:
     eslint: 8.40.0
     eslint-config-prettier: 8.8.0
     log-symbols: 5.1.0
-    nitropack: 2.4.0
+    nitropack: 2.4.1
     prettier: 2.8.8
     rimraf: 5.0.0
     signale: 1.4.0
@@ -452,7 +452,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/functions@npm:^1.4.0":
+"@netlify/functions@npm:^1.6.0":
   version: 1.6.0
   resolution: "@netlify/functions@npm:1.6.0"
   dependencies:
@@ -619,9 +619,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-terser@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "@rollup/plugin-terser@npm:0.4.1"
+"@rollup/plugin-terser@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@rollup/plugin-terser@npm:0.4.2"
   dependencies:
     serialize-javascript: ^6.0.0
     smob: ^0.0.6
@@ -631,11 +631,11 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 684244206df147fbeba66e7327f45cf2134513a89b5e576570cacf67cc517b679eea99cf739a4f13542249d4aba774866c8d406f040ad6a7f4f9b691077da039
+  checksum: beb8e81a10e2d2db62922c0275cc958018a4ba39d157da22315914caf67bbf5b4a751807eec9d6257cd8c016d1dbc64416abc21119e93eaa59aa684311907d6b
   languageName: node
   linkType: hard
 
-"@rollup/plugin-wasm@npm:^6.1.2":
+"@rollup/plugin-wasm@npm:^6.1.3":
   version: 6.1.3
   resolution: "@rollup/plugin-wasm@npm:6.1.3"
   peerDependencies:
@@ -697,10 +697,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/http-proxy@npm:^1.17.11":
+  version: 1.17.11
+  resolution: "@types/http-proxy@npm:1.17.11"
+  dependencies:
+    "@types/node": "*"
+  checksum: 38ef4f8c91c7a5b664cf6dd4d90de7863f88549a9f8ef997f2f1184e4f8cf2e7b9b63c04f0b7b962f34a09983073a31a9856de5aae5159b2ddbb905a4c44dc9f
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:*, @types/json-schema@npm:^7.0.9":
   version: 7.0.11
   resolution: "@types/json-schema@npm:7.0.11"
   checksum: 527bddfe62db9012fccd7627794bd4c71beb77601861055d87e3ee464f2217c85fca7a4b56ae677478367bbd248dbde13553312b7d4dbc702a2f2bbf60c4018d
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:*":
+  version: 20.1.7
+  resolution: "@types/node@npm:20.1.7"
+  checksum: b722794290d22db1741e739c256876ca774b76ea2d647d9ec9d52c49b1b01049cc6f6332499a01ac81d641e8d078b33e4c5c59e409db80390ac6b8d7ef0c08a7
   languageName: node
   linkType: hard
 
@@ -2023,7 +2039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.17.18, esbuild@npm:^0.17.6, esbuild@npm:~0.17.6":
+"esbuild@npm:^0.17.19, esbuild@npm:^0.17.6, esbuild@npm:~0.17.6":
   version: 0.17.19
   resolution: "esbuild@npm:0.17.19"
   dependencies:
@@ -2840,7 +2856,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^1.6.4, h3@npm:^1.6.5":
+"h3@npm:^1.6.4":
   version: 1.6.5
   resolution: "h3@npm:1.6.5"
   dependencies:
@@ -2852,6 +2868,21 @@ __metadata:
     ufo: ^1.1.2
     uncrypto: ^0.1.2
   checksum: 23b34f7cc62a46bcf5ac2e51b39af4a4ff425483b90cde8ca8310e8dcd6d1f7c2377dd72f26c1fcaff88497bd14957f2fd14422e2306990b4541d23077f1e131
+  languageName: node
+  linkType: hard
+
+"h3@npm:^1.6.6":
+  version: 1.6.6
+  resolution: "h3@npm:1.6.6"
+  dependencies:
+    cookie-es: ^1.0.0
+    defu: ^6.1.2
+    destr: ^1.2.2
+    iron-webcrypto: ^0.7.0
+    radix3: ^1.0.1
+    ufo: ^1.1.2
+    uncrypto: ^0.1.2
+  checksum: 58a24d0f5eeff0e36caf7299d0237c43e0e10b9fcc8f8858aec51bcac0a0ab6ed28ebff199119a62e5571c0c35e6788acb69fe63468ff04c3134598c7ee46f1a
   languageName: node
   linkType: hard
 
@@ -3934,7 +3965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mlly@npm:^1.2.0":
+"mlly@npm:^1.2.0, mlly@npm:^1.2.1":
   version: 1.2.1
   resolution: "mlly@npm:1.2.1"
   dependencies:
@@ -4006,21 +4037,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nitropack@npm:2.4.0":
-  version: 2.4.0
-  resolution: "nitropack@npm:2.4.0"
+"nitropack@npm:2.4.1":
+  version: 2.4.1
+  resolution: "nitropack@npm:2.4.1"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.3.0
-    "@netlify/functions": ^1.4.0
+    "@netlify/functions": ^1.6.0
     "@rollup/plugin-alias": ^5.0.0
     "@rollup/plugin-commonjs": ^24.1.0
     "@rollup/plugin-inject": ^5.0.3
     "@rollup/plugin-json": ^6.0.0
     "@rollup/plugin-node-resolve": ^15.0.2
     "@rollup/plugin-replace": ^5.0.2
-    "@rollup/plugin-terser": ^0.4.1
-    "@rollup/plugin-wasm": ^6.1.2
+    "@rollup/plugin-terser": ^0.4.2
+    "@rollup/plugin-wasm": ^6.1.3
     "@rollup/pluginutils": ^5.0.2
+    "@types/http-proxy": ^1.17.11
     "@vercel/nft": ^0.22.6
     archiver: ^5.3.1
     c12: ^1.4.1
@@ -4032,13 +4064,13 @@ __metadata:
     defu: ^6.1.2
     destr: ^1.2.2
     dot-prop: ^7.2.0
-    esbuild: ^0.17.18
+    esbuild: ^0.17.19
     escape-string-regexp: ^5.0.0
     etag: ^1.8.1
     fs-extra: ^11.1.1
     globby: ^13.1.4
     gzip-size: ^7.0.0
-    h3: ^1.6.5
+    h3: ^1.6.6
     hookable: ^5.5.3
     http-proxy: ^1.18.1
     is-primitive: ^3.0.1
@@ -4047,9 +4079,9 @@ __metadata:
     knitwork: ^1.0.0
     listhen: ^1.0.4
     mime: ^3.0.0
-    mlly: ^1.2.0
+    mlly: ^1.2.1
     mri: ^1.2.0
-    node-fetch-native: ^1.1.0
+    node-fetch-native: ^1.1.1
     ofetch: ^1.0.1
     ohash: ^1.1.2
     openapi-typescript: ^6.2.4
@@ -4058,10 +4090,10 @@ __metadata:
     pkg-types: ^1.0.3
     pretty-bytes: ^6.1.0
     radix3: ^1.0.1
-    rollup: ^3.21.5
+    rollup: ^3.21.8
     rollup-plugin-visualizer: ^5.9.0
     scule: ^1.0.0
-    semver: ^7.5.0
+    semver: ^7.5.1
     serve-placeholder: ^2.0.1
     serve-static: ^1.15.0
     source-map-support: ^0.5.21
@@ -4073,11 +4105,11 @@ __metadata:
   bin:
     nitro: dist/cli.mjs
     nitropack: dist/cli.mjs
-  checksum: f767726128728746410236e3f20741d526210dced399b88c3cefa0980ecbc9af8875445449754e51501ddc0787190c136b0d4bb78abd5b9a7a68784e8e52ff84
+  checksum: 64a33cca84da958e830166bdd04f329f8fa295591da2d3ef3880e099db3813f606d0423bffc0a092abc188188196d658d1eb4f5234b3d5deda1218b2b5cf94a1
   languageName: node
   linkType: hard
 
-"node-fetch-native@npm:^1.0.2, node-fetch-native@npm:^1.1.0":
+"node-fetch-native@npm:^1.0.2, node-fetch-native@npm:^1.1.0, node-fetch-native@npm:^1.1.1":
   version: 1.1.1
   resolution: "node-fetch-native@npm:1.1.1"
   checksum: 41fe59179eb94b6ffb25e657e5ed14b4b50e2ba7f6bf5346622970638c8abbf29653b011141c919c6c081979962edd1eb94424a7621412cd78c47a9cd8be1227
@@ -4909,7 +4941,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.2.5, rollup@npm:^3.21.5":
+"rollup@npm:^3.2.5":
   version: 3.21.7
   resolution: "rollup@npm:3.21.7"
   dependencies:
@@ -4920,6 +4952,20 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 44372a1e6fbd1941d6cb230b2a3de6d86861ca7523792757c9fe1d254ae4cd645f5dae27d93c7b1e02c60945d2eadd8c74a99033bd8328eda84949086330d804
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^3.21.8":
+  version: 3.21.8
+  resolution: "rollup@npm:3.21.8"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: f749443af3560aba26f5d45dab98f5657bb29d6698f5a8665932b93e8963ba0d9d54283a25cc2b48b4f47d3dc042acfaae1d2947f02c767d28b87aa11f9e148f
   languageName: node
   linkType: hard
 
@@ -4980,7 +5026,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.5.0":
+"semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.5.1":
   version: 7.5.1
   resolution: "semver@npm:7.5.1"
   dependencies:
