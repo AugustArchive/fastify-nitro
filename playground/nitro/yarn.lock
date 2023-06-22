@@ -2654,8 +2654,8 @@ __metadata:
   linkType: hard
 
 "nitropack@npm:^2.1.0":
-  version: 2.5.0
-  resolution: "nitropack@npm:2.5.0"
+  version: 2.5.1
+  resolution: "nitropack@npm:2.5.1"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.3.0
     "@netlify/functions": ^1.6.0
@@ -2724,7 +2724,7 @@ __metadata:
   bin:
     nitro: dist/cli.mjs
     nitropack: dist/cli.mjs
-  checksum: 319e45cc89eb2dc9aac7e35cb21bdb3a4ec938330d34fc7046c98c99364e6dd49128312a661b475f1e10d85a49ff52ac21d4fa581d2696fe30e93b715c2b8f74
+  checksum: 6783854e2f21cfebcb7dc3ba2127334df19293f2e8ebabc3bde0e193f2dd628033e153eb987a09b04c41962b8285c1428450322729c5b08fd3351d6d31d78b3a
   languageName: node
   linkType: hard
 
