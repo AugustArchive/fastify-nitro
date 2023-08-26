@@ -294,7 +294,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/functions@npm:^2.0.1":
+"@netlify/functions@npm:^2.0.2":
   version: 2.0.2
   resolution: "@netlify/functions@npm:2.0.2"
   dependencies:
@@ -1205,7 +1205,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"citty@npm:^0.1.2":
+"citty@npm:^0.1.2, citty@npm:^0.1.3":
   version: 0.1.3
   resolution: "citty@npm:0.1.3"
   dependencies:
@@ -2873,6 +2873,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mlly@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "mlly@npm:1.4.1"
+  dependencies:
+    acorn: ^8.10.0
+    pathe: ^1.1.1
+    pkg-types: ^1.0.3
+    ufo: ^1.3.0
+  checksum: b2b59ab3d70196127be4e54609d2a442bd252345727138940fb245672a238b2fbdd431e8c75ec5c741ff90410ce488c5fd6446d5d3e6476d21dbf4c3fa35d4a0
+  languageName: node
+  linkType: hard
+
 "mri@npm:^1.2.0":
   version: 1.2.0
   resolution: "mri@npm:1.2.0"
@@ -2916,11 +2928,11 @@ __metadata:
   linkType: hard
 
 "nitropack@npm:^2.1.0":
-  version: 2.6.0
-  resolution: "nitropack@npm:2.6.0"
+  version: 2.6.1
+  resolution: "nitropack@npm:2.6.1"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.3.0
-    "@netlify/functions": ^2.0.1
+    "@netlify/functions": ^2.0.2
     "@rollup/plugin-alias": ^5.0.0
     "@rollup/plugin-commonjs": ^25.0.4
     "@rollup/plugin-inject": ^5.0.3
@@ -2936,7 +2948,7 @@ __metadata:
     c12: ^1.4.2
     chalk: ^5.3.0
     chokidar: ^3.5.3
-    citty: ^0.1.2
+    citty: ^0.1.3
     consola: ^3.2.3
     cookie-es: ^1.0.0
     defu: ^6.1.2
@@ -2958,10 +2970,10 @@ __metadata:
     listhen: ^1.4.0
     magic-string: ^0.30.3
     mime: ^3.0.0
-    mlly: ^1.4.0
+    mlly: ^1.4.1
     mri: ^1.2.0
     node-fetch-native: ^1.4.0
-    ofetch: ^1.2.1
+    ofetch: ^1.3.3
     ohash: ^1.1.3
     openapi-typescript: ^6.5.3
     pathe: ^1.1.1
@@ -2976,16 +2988,16 @@ __metadata:
     serve-placeholder: ^2.0.1
     serve-static: ^1.15.0
     std-env: ^3.4.3
-    ufo: ^1.2.0
+    ufo: ^1.3.0
     uncrypto: ^0.1.3
     unctx: ^2.3.1
     unenv: ^1.7.3
-    unimport: ^3.1.3
+    unimport: ^3.2.0
     unstorage: ^1.9.0
   bin:
     nitro: dist/cli/index.mjs
     nitropack: dist/cli/index.mjs
-  checksum: 319573055ee67b6308d7315e06a597136087f02bb1a2d622736c60ac074877f19df91d32e69a6bb85924ccaa8d2fa44f284e469799e6ca4beb5c646d0167edce
+  checksum: 2b6e50c95931cf0229c963f407173ace5c4c635b186b98a5c9d2e713a4af20268c29d327932cf43df9f57ec206b8e76d798a198d92c50068f2798f52ee5ddef4
   languageName: node
   linkType: hard
 
@@ -3151,7 +3163,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ofetch@npm:^1.2.1":
+"ofetch@npm:^1.3.3":
   version: 1.3.3
   resolution: "ofetch@npm:1.3.3"
   dependencies:
@@ -4229,7 +4241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimport@npm:^3.1.3":
+"unimport@npm:^3.2.0":
   version: 3.2.0
   resolution: "unimport@npm:3.2.0"
   dependencies:
