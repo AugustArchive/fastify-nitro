@@ -431,6 +431,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/watcher-wasm@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@parcel/watcher-wasm@npm:2.3.0"
+  dependencies:
+    is-glob: ^4.0.3
+    micromatch: ^4.0.5
+    napi-wasm: ^1.1.0
+  checksum: 61e3209e5253fc4eda2ddf903877475836cc3c65dca8b19c538de4b1fb598c17ca2797ab52cb45f61c01be963aed44059f2f9e536eb68539e31f27f1fcfb09ba
+  languageName: node
+  linkType: hard
+
 "@parcel/watcher-wasm@npm:2.3.0-alpha.3":
   version: 2.3.0-alpha.3
   resolution: "@parcel/watcher-wasm@npm:2.3.0-alpha.3"
@@ -463,7 +474,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@parcel/watcher@npm:^2.2.0":
+"@parcel/watcher@npm:^2.2.0, @parcel/watcher@npm:^2.3.0":
   version: 2.3.0
   resolution: "@parcel/watcher@npm:2.3.0"
   dependencies:
@@ -677,6 +688,22 @@ __metadata:
     rollup:
       optional: true
   checksum: 8efbdeac53c58ba7b26c353a0a95acb0286cb6afec9816e0c52c3537404be80af11d897f78416a3339a8a76cbce8600269bdf4853edfdebcc89b2e90c56bf3d9
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^5.0.4":
+  version: 5.0.4
+  resolution: "@rollup/pluginutils@npm:5.0.4"
+  dependencies:
+    "@types/estree": ^1.0.0
+    estree-walker: ^2.0.2
+    picomatch: ^2.3.1
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 893d5805ac4121fc704926963a0ae4e79e9e2bc8d736c3b28499ab69a404cce5119ca3a4e0c3d3a81d62f1beb3966f35285c36935d94b061794f26e94fed4cd1
   languageName: node
   linkType: hard
 
@@ -1985,6 +2012,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-port-please@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "get-port-please@npm:3.0.2"
+  checksum: 33556e996179894efdce78da8e47aaeb95fb4d572d1b8655704b9ae63a781d76dcf0de717fd4dd14c47b5635abf23c1fb36a59e8b551cd84c749e1a40172a0ce
+  languageName: node
+  linkType: hard
+
 "get-stream@npm:^6.0.0":
   version: 6.0.1
   resolution: "get-stream@npm:6.0.1"
@@ -2105,6 +2139,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"h3@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "h3@npm:1.8.1"
+  dependencies:
+    cookie-es: ^1.0.0
+    defu: ^6.1.2
+    destr: ^2.0.1
+    iron-webcrypto: ^0.8.0
+    radix3: ^1.1.0
+    ufo: ^1.3.0
+    uncrypto: ^0.1.3
+    unenv: ^1.7.4
+  checksum: a25e37a880455c30429d35bdfdcb8b2164605f74116d2e1e4b4c6ffa27e2c18d8ebbc810dcfd9a3533dbda6e23484edc68e14a2395753b3ec70125c008a78efe
+  languageName: node
+  linkType: hard
+
 "has-unicode@npm:^2.0.1":
   version: 2.0.1
   resolution: "has-unicode@npm:2.0.1"
@@ -2176,10 +2226,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"httpxy@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "httpxy@npm:0.1.2"
-  checksum: caff22eafeefa1005905de4de5720c813c366620e3627ca433280ab1c592fb51f682459a95f9acf1a5bf37fc96258605121ea60d78191bf7c3f317c8506d1450
+"httpxy@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "httpxy@npm:0.1.4"
+  checksum: 251390489f3a8c0a26a48dababffca94c7ec609864328d47e6495fff24719abd6c4bfb75b917f977e8696a717bba1cb54f5844366425cc0783ffd3552a826887
   languageName: node
   linkType: hard
 
@@ -2528,7 +2578,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"listhen@npm:^1.2.2, listhen@npm:^1.4.0":
+"listhen@npm:^1.2.2":
   version: 1.4.0
   resolution: "listhen@npm:1.4.0"
   dependencies:
@@ -2552,6 +2602,33 @@ __metadata:
     listen: bin/listhen.mjs
     listhen: bin/listhen.mjs
   checksum: 3495c0c14b24582f78a8150f88a6fb523d69d75e537b67f9003452a85ccde9805e4aac4ebe759dd7b1718d24dbfe11645d17a0eb72a4cff189b4d70431a50438
+  languageName: node
+  linkType: hard
+
+"listhen@npm:^1.4.2":
+  version: 1.4.3
+  resolution: "listhen@npm:1.4.3"
+  dependencies:
+    "@parcel/watcher": ^2.3.0
+    "@parcel/watcher-wasm": 2.3.0
+    citty: ^0.1.3
+    clipboardy: ^3.0.0
+    consola: ^3.2.3
+    defu: ^6.1.2
+    get-port-please: ^3.0.2
+    h3: ^1.8.1
+    http-shutdown: ^1.2.2
+    jiti: ^1.19.3
+    mlly: ^1.4.1
+    node-forge: ^1.3.1
+    pathe: ^1.1.1
+    ufo: ^1.3.0
+    untun: ^0.1.2
+    uqr: ^0.1.2
+  bin:
+    listen: bin/listhen.mjs
+    listhen: bin/listhen.mjs
+  checksum: 1da1e7094ba0c1c8be7e26de63064ed6e04eea672fbf9797ed4dc85d5592dc780ba471c7f086701538bd0db67149d13ad413ccf510721698673560d98bf4a15b
   languageName: node
   linkType: hard
 
@@ -2928,8 +3005,8 @@ __metadata:
   linkType: hard
 
 "nitropack@npm:^2.1.0":
-  version: 2.6.1
-  resolution: "nitropack@npm:2.6.1"
+  version: 2.6.2
+  resolution: "nitropack@npm:2.6.2"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.3.0
     "@netlify/functions": ^2.0.2
@@ -2941,7 +3018,7 @@ __metadata:
     "@rollup/plugin-replace": ^5.0.2
     "@rollup/plugin-terser": ^0.4.3
     "@rollup/plugin-wasm": ^6.1.3
-    "@rollup/pluginutils": ^5.0.3
+    "@rollup/pluginutils": ^5.0.4
     "@types/http-proxy": ^1.17.11
     "@vercel/nft": ^0.23.1
     archiver: ^6.0.0
@@ -2960,14 +3037,14 @@ __metadata:
     fs-extra: ^11.1.1
     globby: ^13.2.2
     gzip-size: ^7.0.0
-    h3: ^1.8.0
+    h3: ^1.8.1
     hookable: ^5.5.3
-    httpxy: ^0.1.2
+    httpxy: ^0.1.4
     is-primitive: ^3.0.1
     jiti: ^1.19.3
     klona: ^2.0.6
     knitwork: ^1.0.0
-    listhen: ^1.4.0
+    listhen: ^1.4.2
     magic-string: ^0.30.3
     mime: ^3.0.0
     mlly: ^1.4.1
@@ -2991,13 +3068,13 @@ __metadata:
     ufo: ^1.3.0
     uncrypto: ^0.1.3
     unctx: ^2.3.1
-    unenv: ^1.7.3
+    unenv: ^1.7.4
     unimport: ^3.2.0
     unstorage: ^1.9.0
   bin:
     nitro: dist/cli/index.mjs
     nitropack: dist/cli/index.mjs
-  checksum: 2b6e50c95931cf0229c963f407173ace5c4c635b186b98a5c9d2e713a4af20268c29d327932cf43df9f57ec206b8e76d798a198d92c50068f2798f52ee5ddef4
+  checksum: 395b1d02292df4785ae6fee6f5b6135c452e8de0c74cd1d4d08707cb54a0450ed9dd1038161be682071f011ba5a836047ce7f2fe0e4a32b9005291317410b3ce
   languageName: node
   linkType: hard
 
@@ -4228,7 +4305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unenv@npm:^1.7.1, unenv@npm:^1.7.3":
+"unenv@npm:^1.7.1":
   version: 1.7.3
   resolution: "unenv@npm:1.7.3"
   dependencies:
@@ -4238,6 +4315,19 @@ __metadata:
     node-fetch-native: ^1.2.0
     pathe: ^1.1.1
   checksum: d5f28511b0baf241e01b0ef68d4b179e3e2f38065ace530202c378b929ea491375e9a165b902c2db0315502fd24ba48d2b2cb9bee1f3ed368d7e182b0223d958
+  languageName: node
+  linkType: hard
+
+"unenv@npm:^1.7.4":
+  version: 1.7.4
+  resolution: "unenv@npm:1.7.4"
+  dependencies:
+    consola: ^3.2.3
+    defu: ^6.1.2
+    mime: ^3.0.0
+    node-fetch-native: ^1.4.0
+    pathe: ^1.1.1
+  checksum: a60873b9283c6ff57ed939938c7aac991412be36c02d00e1acb3744a9c4275743190ff665994f9edb2fa2a0f4eb5aa5a0ea4d04625a95fcf33792eff3d9b8092
   languageName: node
   linkType: hard
 
@@ -4373,6 +4463,19 @@ __metadata:
   bin:
     untun: bin/untun.mjs
   checksum: 6fa0728bd1301ae6c43af87268cddfe1e5d29382721437bec2b6077d4819601e553d2bb255adce48a7c9fdf33bf8cfadfbb721ddcdca5c12c5cf56a7b5ba8eea
+  languageName: node
+  linkType: hard
+
+"untun@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "untun@npm:0.1.2"
+  dependencies:
+    citty: ^0.1.3
+    consola: ^3.2.3
+    pathe: ^1.1.1
+  bin:
+    untun: bin/untun.mjs
+  checksum: 4ba32a6273138712ce8db3df027262902ec2a2c106d44ab94202a73b652e76b984e5661e3a7897dce048a740890f23165fb810a2ab1a69df2d6f729dad8078e2
   languageName: node
   linkType: hard
 
