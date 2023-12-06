@@ -43,7 +43,7 @@
         "signale": "1.4.0",
         "tsup": "8.0.1",
         "tsx": "3.12.7",
-        "typescript": "5.3.2"
+        "typescript": "5.3.3"
     },
     "peerDependencies": {
         "fastify": "4.x"
