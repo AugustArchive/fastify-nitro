@@ -1908,8 +1908,8 @@ __metadata:
   linkType: hard
 
 "fastify@npm:^4.12.0":
-  version: 4.24.3
-  resolution: "fastify@npm:4.24.3"
+  version: 4.25.0
+  resolution: "fastify@npm:4.25.0"
   dependencies:
     "@fastify/ajv-compiler": ^3.5.0
     "@fastify/error": ^3.4.0
@@ -1920,14 +1920,14 @@ __metadata:
     fast-json-stringify: ^5.8.0
     find-my-way: ^7.7.0
     light-my-request: ^5.11.0
-    pino: ^8.16.0
-    process-warning: ^2.2.0
+    pino: ^8.17.0
+    process-warning: ^3.0.0
     proxy-addr: ^2.0.7
     rfdc: ^1.3.0
     secure-json-parse: ^2.7.0
     semver: ^7.5.4
     toad-cache: ^3.3.0
-  checksum: f953c42aa47a22e69e0f721f4d82a17278dc66c317c0881b04e982cfc738c71bcccd1bcc951e317eb9600cec90840404aa1a04018a5fff909c412950ddf58956
+  checksum: 944b5762766b510f6303ca488cd9b47e320881741be3a1c3196a7912d6bc73c353f7a37cd37fb563b6ac0d82282b9bb41949502f3a44dd432782807fe33db5d8
   languageName: node
   linkType: hard
 
@@ -3430,9 +3430,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:^8.16.0":
-  version: 8.16.0
-  resolution: "pino@npm:8.16.0"
+"pino@npm:^8.17.0":
+  version: 8.17.0
+  resolution: "pino@npm:8.17.0"
   dependencies:
     atomic-sleep: ^1.0.0
     fast-redact: ^3.1.1
@@ -3447,7 +3447,7 @@ __metadata:
     thread-stream: ^2.0.0
   bin:
     pino: bin.js
-  checksum: c3af0d1d80d0a7ec59530e6c3668895ac813762829ea0b7e316057370f58011d09e128e67289665652904367a1f27f87cca4e564eb3ff2a0d46219f12fcf896e
+  checksum: 9bd2bc5ee4bf368d7ea79f13a58817c64ba481c424f022e1d60aea8a63f4dd428a94015953739f0f504bfb2dced1a0abadf494884d688a7043e0bc5967d93885
   languageName: node
   linkType: hard
 
@@ -3483,10 +3483,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"process-warning@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "process-warning@npm:2.2.0"
-  checksum: 394ae451c2622ee7d014a7196d36658fc1a5d5cc9f3bfeb54aadd5b77fcfecc89a30a25db259ae76ff49fde3f3f3dd7031dcdfb4da2e5445dac795549352e5d0
+"process-warning@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "process-warning@npm:3.0.0"
+  checksum: 1fc2eb4524041de3c18423334cc8b4e36bec5ad5472640ca1a936122c6e01da0864c1a4025858ef89aea93eabe7e77db93ccea225b10858617821cb6a8719efe
   languageName: node
   linkType: hard
 
