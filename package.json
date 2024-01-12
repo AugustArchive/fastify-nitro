@@ -38,7 +38,7 @@
         "eslint": "8.56.0",
         "eslint-config-prettier": "9.1.0",
         "log-symbols": "6.0.0",
-        "prettier": "3.1.1",
+        "prettier": "3.2.0",
         "rimraf": "5.0.5",
         "signale": "1.4.0",
         "tsup": "8.0.1",
