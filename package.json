@@ -23,7 +23,7 @@
         "fmt": "prettier --write **/*.{ts,js,md,json,yml,yaml} --config ./.prettierrc.json"
     },
     "dependencies": {
-        "@noelware/utils": "2.4.0",
+        "@noelware/utils": "2.5.0",
         "nitropack": "2.8.1"
     },
     "devDependencies": {
