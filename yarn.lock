@@ -74,7 +74,7 @@ __metadata:
     "@augu/tsconfig": 1.2.0
     "@noelware/utils": 2.5.0
     "@types/eslint": 8.56.4
-    "@types/node": 20.11.21
+    "@types/node": 20.11.22
     "@types/prettier": 2.7.3
     "@typescript-eslint/eslint-plugin": 7.1.0
     "@typescript-eslint/parser": 7.1.0
@@ -1577,12 +1577,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.21":
-  version: 20.11.21
-  resolution: "@types/node@npm:20.11.21"
+"@types/node@npm:20.11.22":
+  version: 20.11.22
+  resolution: "@types/node@npm:20.11.22"
   dependencies:
     undici-types: ~5.26.4
-  checksum: 6d32edc3ba61236d879ebb6aa8905602310a2dc6469113ed6e282d63c03b4b800bd17a10ae780e4ac2a92f1ad99ad44fe8aa14cac67f86389cb141a2477a2fee
+  checksum: ef8fd0b561c3c9810f3c23c990c856619232934e54308c84e79d4e39d44b66668eceb6eca89c64ebcbc78fb514446661ad58b0f8e6b5fa3d9ed9ff0983aac4ef
   languageName: node
   linkType: hard
 
