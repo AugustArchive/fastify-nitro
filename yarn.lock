@@ -75,7 +75,7 @@ __metadata:
     "@augu/eslint-config": 5.2.0
     "@augu/tsconfig": 1.2.0
     "@noelware/utils": 2.5.0
-    "@types/eslint": 8.56.7
+    "@types/eslint": 8.56.8
     "@types/node": 20.12.7
     "@types/prettier": 3.0.0
     "@typescript-eslint/eslint-plugin": 7.6.0
@@ -1394,13 +1394,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.56.7":
-  version: 8.56.7
-  resolution: "@types/eslint@npm:8.56.7"
+"@types/eslint@npm:8.56.8":
+  version: 8.56.8
+  resolution: "@types/eslint@npm:8.56.8"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
-  checksum: 26b036e27e369981843585248591b15068f1ba3ac44a01c09c34717f0b57cbb422a7ed2b497b51093b0ead97739e187dde65bbd5893ec901672dac39f41c8038
+  checksum: b33024ac7bac6d535caa0d5e1f3cdbb527c6b23c10bc3e18d5bc9b6a8b8b593599cb6526fde778e702574b55aac1ab9b2387f22e32ae1a2cb9c569ef29802fc5
   languageName: node
   linkType: hard
 
