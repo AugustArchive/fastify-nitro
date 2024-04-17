@@ -71,7 +71,7 @@ __metadata:
     "@actions/core": 1.10.1
     "@augu/eslint-config": 5.2.2
     "@augu/tsconfig": 1.2.0
-    "@noelware/utils": 2.5.0
+    "@noelware/utils": 2.5.1
     "@types/eslint": 8.56.9
     "@types/node": 20.12.7
     "@types/prettier": 3.0.0
@@ -844,13 +844,6 @@ __metadata:
     "@nodelib/fs.scandir": 2.1.5
     fastq: ^1.6.0
   checksum: 190c643f156d8f8f277bf2a6078af1ffde1fd43f498f187c2db24d35b4b4b5785c02c7dc52e356497b9a1b65b13edc996de08de0b961c32844364da02986dc53
-  languageName: node
-  linkType: hard
-
-"@noelware/utils@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@noelware/utils@npm:2.5.0"
-  checksum: c301a51c679b0955a71f6ea7bda796d1585c0b457fae1492bfd4088fc56887bea4b0e4cc1d0e864576d2e709c0719f08cf692b1cb4dd911bd4d7c24db216332b
   languageName: node
   linkType: hard
 
