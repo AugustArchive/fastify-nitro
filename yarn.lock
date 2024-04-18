@@ -31,9 +31,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@augu/eslint-config@npm:5.2.2":
-  version: 5.2.2
-  resolution: "@augu/eslint-config@npm:5.2.2"
+"@augu/eslint-config@npm:5.2.4":
+  version: 5.2.4
+  resolution: "@augu/eslint-config@npm:5.2.4"
   dependencies:
     "@actions/core": 1.10.1
     "@noelware/utils": 2.5.1
@@ -60,7 +60,7 @@ __metadata:
       optional: true
     vue-eslint-parser:
       optional: true
-  checksum: 24ce345377dbd80dc42c52dbe1c58f416a5207c8c0c55ba4ea963a4aee4f12c401b9060d6c29e758b733e35a3190f635ee2f8a4b745eb9a282bad582f6841035
+  checksum: 02798c7a0befd30799d762be14d24bbc376b1dee8bc16c04e18ab6a414e4d0b8eee41f5722f1c09113f3ab4c5d3ff28f3a1af628887cb73d22f2f53cdf0607aa
   languageName: node
   linkType: hard
 
@@ -69,7 +69,7 @@ __metadata:
   resolution: "@augu/fastify-nitro@workspace:."
   dependencies:
     "@actions/core": 1.10.1
-    "@augu/eslint-config": 5.2.2
+    "@augu/eslint-config": 5.2.4
     "@augu/tsconfig": 1.2.0
     "@noelware/utils": 2.5.1
     "@types/eslint": 8.56.9
