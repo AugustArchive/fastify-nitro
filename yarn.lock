@@ -77,7 +77,7 @@ __metadata:
     "@types/prettier": 3.0.0
     "@typescript-eslint/eslint-plugin": 7.7.0
     "@typescript-eslint/parser": 7.7.0
-    eslint: 9.1.0
+    eslint: 9.1.1
     eslint-config-prettier: 9.1.0
     log-symbols: 6.0.0
     nitropack: 2.9.6
@@ -2929,9 +2929,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.1.0":
-  version: 9.1.0
-  resolution: "eslint@npm:9.1.0"
+"eslint@npm:9.1.1":
+  version: 9.1.1
+  resolution: "eslint@npm:9.1.1"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.6.1
@@ -2969,7 +2969,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 30372c41a26e9c5667348b4c7e605bd3ff12d77f329a7214e6a166fc3590613774b76ea3090abec298ba1498bb5228c37f1b64c09262af5bc00ab273cf8f096f
+  checksum: b96852334eb8397cbee4d8d2342c247a304bf59ba38573e0229e28b6f4589a315af065e5a19989133103b09ada8c958f7cd83e95d327b1d3532e9b2c119d6692
   languageName: node
   linkType: hard
 
