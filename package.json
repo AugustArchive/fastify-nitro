@@ -39,7 +39,7 @@
         "eslint-config-prettier": "9.1.0",
         "log-symbols": "6.0.0",
         "prettier": "3.2.5",
-        "rimraf": "5.0.6",
+        "rimraf": "5.0.7",
         "signale": "1.4.0",
         "tsup": "8.0.2",
         "tsx": "3.12.7",
