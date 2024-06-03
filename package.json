@@ -41,7 +41,7 @@
         "prettier": "3.3.0",
         "rimraf": "5.0.7",
         "signale": "1.4.0",
-        "tsup": "8.0.2",
+        "tsup": "8.1.0",
         "tsx": "3.12.7",
         "typescript": "5.4.5"
     },
