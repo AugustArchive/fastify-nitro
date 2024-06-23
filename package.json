@@ -6,7 +6,7 @@
     "types": "./dist/index.d.ts",
     "repository": "https://github.com/auguwu/nitro-preset",
     "bugs": "https://github.com/auguwu/nitro-preset/issues",
-    "packageManager": "yarn@3.8.2",
+    "packageManager": "yarn@3.8.3",
     "files": [
         "./dist"
     ],
