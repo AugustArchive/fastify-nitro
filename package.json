@@ -42,7 +42,7 @@
         "rimraf": "5.0.7",
         "signale": "1.4.0",
         "tsup": "8.1.0",
-        "tsx": "3.12.7",
+        "tsx": "4.16.0",
         "typescript": "5.5.2"
     },
     "peerDependencies": {
